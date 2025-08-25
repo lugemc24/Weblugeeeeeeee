@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Untitled</title>
+  
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>NauticMC Style</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+
+    .bg-hero {
+
+      background-image: url('https://i.imgur.com/HhV9fUm.jpeg');
+
+      background-size: cover;
+
+      background-position: center;
+
+      background-attachment: fixed;
+
+      position: relative;
+
+    }
+
+    .bg-hero::before {
+
+      content: "";
+
+      position: absolute;
+
+      inset: 0;
+
+      background: rgba(0, 0, 0, 0.6);
+
+      z-index: 0;
+
+    }
+
+    .hero-content {
+
+      position: relative;
+
+      z-index: 1;
+
+    }
+
+  </style>
+
+</head>
+
+<body class="bg-gradient-to-b from-[#0a0a0a] to-[#1a1a1a] text-white font-sans">
+
+  <nav class="flex justify-between items-center px-8 py-4 bg-black/40 backdrop-blur-md fixed w-full z-50">
+
+    <ul class="flex gap-6 text-lg">
+
+      <li><a href="#inicio" class="hover:text-cyan-400">Inicio</a></li>
+
+      <li><a href="#modalidades" class="hover:text-cyan-400">Modalidades</a></li>
+
+      <li><a href="#tienda" class="hover:text-cyan-400">Tienda</a></li>
+
+      <li><a href="#discord" class="hover:text-cyan-400">Discord</a></li>
+
+    </ul>
+
+  </nav>
+
+  <section id="inicio" class="h-screen flex flex-col justify-center items-center text-center px-4 bg-hero">
+
+    <div class="hero-content max-w-3xl">
+
+      <h2 class="text-5xl md:text-6xl font-extrabold mb-6">Bienvenido a <span class="text-cyan-400">MiNetwork</span></h2>
+
+      <p class="text-xl md:text-2xl mb-6">Una experiencia única en Minecraft, donde la comunidad y la diversión son lo primero.</p>
+
+      <p class="text-gray-300 text-lg leading-relaxed">
+
+        Contamos con modalidades diseñadas para todos los gustos: <br>
+
+        <span class="text-cyan-400 font-bold">Survival</span> con economía y protección de terrenos, 
+
+        <span class="text-cyan-400 font-bold">SkyBlock</span> competitivo para desafiar a tus amigos, 
+
+        y <span class="text-cyan-400 font-bold">eventos especiales</span> cada semana.  
+
+        <br><br>
+
+        Únete a nosotros y sé parte de una de las comunidades más activas de Minecraft en español.
+
+      </p>
+
+    </div>
+
+  </section>
+
+  <section id="modalidades" class="py-20 px-8 bg-[#111]">
+
+    <h3 class="text-4xl font-bold text-center mb-12">⚡ Modalidades</h3>
+
+    <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+
+      <div class="bg-black/40 p-6 rounded-2xl shadow-lg hover:scale-105 transition">
+
+        <h4 class="text-2xl font-bold mb-3 text-cyan-400">Survival</h4>
+
+        <p class="text-gray-300">Explora, construye y comercia en un mundo survival con economía y protección de terrenos.</p>
+
+      </div>
+
+      <div class="bg-black/40 p-6 rounded-2xl shadow-lg hover:scale-105 transition">
+
+        <h4 class="text-2xl font-bold mb-3 text-cyan-400">SkyBlock</h4>
+
+        <p class="text-gray-300">Crea tu isla desde cero, mejora tus recursos y compite en el ranking global.</p>
+
+      </div>
+
+      <div class="bg-black/40 p-6 rounded-2xl shadow-lg hover:scale-105 transition">
+
+        <h4 class="text-2xl font-bold mb-3 text-cyan-400">Eventos</h4>
+
+        <p class="text-gray-300">Participa en minijuegos y eventos semanales con recompensas exclusivas.</p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <section id="tienda" class="py-20 px-8">
+
+    <h3 class="text-4xl font-bold text-center mb-12">🛒 Tienda</h3>
+
+    <p class="text-center text-gray-300 mb-6">Apoya al servidor y desbloquea rangos, kits y más.</p>
+
+    <div class="text-center">
+
+      <a href="#" class="px-6 py-3 bg-cyan-400 text-black font-bold rounded-xl hover:bg-cyan-300 transition">Ir a la Tienda</a>
+
+    </div>
+
+  </section>
+
+  <section id="discord" class="py-20 px-8 bg-[#111] text-center">
+
+    <h3 class="text-4xl font-bold mb-6">💬 Únete a Discord</h3>
+
+    <p class="text-gray-300 mb-6">Conecta con la comunidad, participa en sorteos y entérate de todas las novedades.</p>
+
+    <a href="#" class="px-6 py-3 bg-cyan-400 text-black font-bold rounded-xl hover:bg-cyan-300 transition">Entrar al Discord</a>
+
+  </section>
+
+  <footer class="bg-black/60 py-6 text-center text-gray-400">
+
+    <p>© 2025 HydroMC - Todos los derechos reservados.</p>
+
+  </footer>
+
+</body>
+
+</html>
+<!-- partial -->
+  
+</body>
+</html>
